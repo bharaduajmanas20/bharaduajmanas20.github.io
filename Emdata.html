@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<hr>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+<body style="background-color:powderblue;">
+    <div class="container bg-light">
+        <div class="col-md-12 text-center">
+<button type="button"class="btn btn-primary" value="odd" onclick="g(this.value)">Show Odd Employee Details </button>
+<button type="button"class="btn btn-primary" value="even" onclick="g(this.value)">Show Even Employee Details </button>
+<button type="button"class="btn btn-primary" value="all" onclick="g()">Show all Employee Details </button>
+<button type="button"class="btn btn-success" id="button1" onclick="clearIt()">Clear</button>
+</div>
+</div>
+<br>
+    <input type="number" placeholder="Enter ID"  id="ids" name="ids">
+    <button type="button"class="btn btn-primary"   onclick="g(0)"> Search for ID</button>
+<hr></body>
+<div class="p-3 mb-2 bg-primary text-white">Mirketa Software Pvt. Ltd.
+<p id="show"></p>
+</div>
+<script src="Emdata.js">
+</script>
+</body>
+</html>
